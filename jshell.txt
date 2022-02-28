@@ -1,0 +1,45 @@
+Variables :
+jshell> String name = "Ashraf";
+name ==> "Ashraf"
+
+jshell> System.out.println(name);
+Ashraf
+
+jshell> String lname ="Shaikh";
+lname ==> "Shaikh"
+
+jshell> System.out.println(name+" "+lname);
+Ashraf Shaikh
+
+jshell> int num = 10;
+num ==> 10
+
+jshell> System.out.println(num);
+10
+
+
+Function :
+jshell> int add (int a , int b) {
+   ...>     return a + b;
+   ...> }
+|  created method add(int,int)
+
+jshell> add(10,5);
+$8 ==> 15
+
+jshell> System.out.println("Addition is : "+add(1,1));
+Addition is : 2
+
+
+Class :
+jshell> class Demo {
+   ...>     void show() {
+   ...>         System.out.println("This is a show method");
+   ...>     }
+   ...> }
+|  created class Demo
+
+jshell> new Demo().show();
+This is a show method
+
+
